@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single post</title>
+
+    <!-- font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="post.css" />
+
+    <!-- JQuery CDN link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <nav>
+      <div class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+
+        <img src="img/menu.png" id="menu-btn" alt="" />
+      </div>
+    </nav>
+    <!-- Navigation ends -->
+
+    <!-- Post body starts from here -->
+    <div id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+          <img src="img/4.webp" alt="" />
+          <h3>Apa itu serangan panik?</h3>
+          <p>
+            Serangan panik adalah rasa takut dan cemas yang bisa tiba-tiba
+            membuat kita kewalahan dan biasanya diiringi dengan gejala fisik
+            lainnya yang akut, seperti napas tersengal-sengal, dan jantung
+            berdegup kencang. Bagi banyak anak yang mengalami serangan ini,
+            mereka juga merasakan teror, seolah suatu peristiwa buruk akan
+            terjadi. Perasaan ini dapat muncul meskipun mereka tidak benar-benar
+            berada dalam bahaya.
+          </p>
+
+          <p>
+            Apa penyebab serangan panik? Penyebab serangan panik tidak selalu
+            jelas, baik pada anak-anak maupun orang dewasa. Yang diketahui,
+            kepanikan dapat dipicu oleh rasa cemas tentang sesuatu atau saat
+            sedang mengalami situasi sulit dan stres, antara lain: Cemas karena
+            ada pengalaman tidak menyenangkan di rumah atau sekolah Stres karena
+            ujian sekolah, masalah pada hubungan pertemanan atau dengan orang
+            terdekat lainya Kematian orang terdekat Pengalaman mengerikan,
+            seperti penganiayaan atau penelantaran Pengalaman yang melibatkan
+            kekerasan
+          </p>
+
+          <p>
+            Serangan panik pada anak dan remaja. Pola tidur dan makan yang sehat
+            dapat memberikan pengaruh positif kepada perasaan cemas. Sebab,
+            orang yang cemas terus menerus sering kali akan merasa sangat letih.
+            Untuk anak-anak berusia 6 hingga 12 tahun, para pakar menyarankan
+            durasi tidur malam selama sembilan hingga 12 jam. Untuk anak remaja,
+            durasi yang disarankan adalah delapan hingga 10 jam. Agar tidur
+            berkualitas, orang tua perlu membatasi akses ke ponsel pada malam
+            hari. Gawai pun sebaiknya tidak diletakkan di kamar. Serangan panik
+            sering kali mulai terjadi pada masa remaja, meskipun dapat juga
+            dimulai semasa kanak-kanak. Serangan ini dapat menyebabkan kecemasan
+            berlebihan dan juga berdampak pada suasana hati serta perilaku anak
+            sehari-hari. Sebagian anak akan mulai menghindari situasi yang
+            mereka khawatirkan bisa memicu serangan panik. Remaja bisa jadi
+            beralih ke alkohol dan narkoba untuk mengurangi kecemasannya.
+            Serangan panik yang tidak dideteksi dan diatasi dapat menyebabkan
+            konsekuensi jangka panjang, seperti depresi dan kecenderungan bunuh
+            diri. Jika masalah dapat dideteksi sejak dini, perawatan yang
+            diberikan biasanya berjalan dengan baik.
+          </p>
+
+          <br />
+
+          <a href="#">Kembali Ke Atas</a>
+        </div>
+      </div>
+    </div>
+    <!-- Post body ends from here -->
+
+    <!-- Footer section starts from here -->
+    <footer>
+      <div class="footer-col">
+        <h3>Lainya</h3>
+        <li>Tentang Kami</li>
+        <li>Frequently Asked Questions (FAQ)</li>
+        <li>Syarat Dan Ketentuan</li>
+        <li>Kontak</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Gabung sekarang untuk mendapatkan informasi terbaru</p>
+
+        <div class="subscribe">
+          <input type="email" placeholder="Alamat Email Anda" />
+          <a href="#" class="yellow">Kirim</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @ 2023 All rights reserved |
+          <a
+            href="https://www.unicef.org/indonesia/id/what-we-do"
+            target="_blank"
+            >UNICEF</a
+          >
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends from here -->
+
+    <script>
+      // Show menu links on burger click
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      // Hide navbar on click function
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>

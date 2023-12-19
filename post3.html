@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single post</title>
+
+    <!-- font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="post.css" />
+
+    <!-- JQuery CDN link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <nav>
+      <div class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+
+        <img src="img/menu.png" id="menu-btn" alt="" />
+      </div>
+    </nav>
+    <!-- Navigation ends -->
+
+    <!-- Post body starts from here -->
+    <div id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+          <img src="img/3.webp" alt="" />
+          <h3>Apa itu depresi?</h3>
+          <p>
+            Depresi adalah salah satu bentuk kondisi kesehatan mental yang
+            dialami banyak orang dan sering kali muncul berbarengan dengan
+            kecemasan. Depresi bisa ringan dan sementara, atau berat dan
+            berkepanjangan. Ada orang-orang yang mengalami depresi hanya sekali
+            dalam hidupnya; ada pula yang mengalaminya berkali-kali. Depresi
+            bisa berujung pada tindak bunuh diri, tetapi hal ini bisa dicegah
+            dengan dukungan yang tepat. Penting untuk mengetahui bahwa ada
+            banyak hal yang bisa dilakukan untuk membantu anak-anak muda yang
+            memiliki dorongan untuk melakukan tindakan ini.
+          </p>
+
+          <p>
+            Depresi bisa terjadi sebagai reaksi terhadap suatu peristiwa,
+            misalnya penganiayaan, kekerasan di sekolah, kematian orang
+            terdekat, atau masalah keluarga seperti kekerasan di dalam rumah
+            tangga ataupun perpisahan orang tua. Seseorang bisa mengalami
+            depresi setelah merasa stres untuk waktu yang lama. Depresi juga
+            bisa diturunkan di dalam keluarga. Selain itu, ada kalanya kita
+            tidak tahu mengapa depresi timbul.
+          </p>
+
+          <p>
+            Depresi pada anak dan remaja dapat timbul dalam bentuk
+            ketidakbahagiaan atau kondisi mudah tersinggung yang berlangsung
+            lama. Hal ini cukup umum dialami anak berusia pra-remaja dan remaja,
+            tetapi sering kali tidak dikenali. Bagi sebagian anak, perasaan ini
+            diekspresikan sebagai “tidak bahagia” atau “sedih”. Ada pula yang
+            mengaku ingin melukai diri, bahkan mengakhiri hidupnya. Anak dan
+            remaja yang mengalami depresi lebih berisiko menyakiti diri sendiri,
+            sehingga ujaran-ujaran seperti ini harus selalu ditanggapi dengan
+            serius. Anak yang terlihat sedih belum tentu depresi. Akan tetapi,
+            jika kesedihan itu bertahan atau mengganggu aktivitas sosial,
+            membuat anak kehilangan minat, menghambat prestasi di sekolah, atau
+            mengganggu hubungannya dengan keluarga, bisa jadi ini berarti anak
+            memerlukan dukungan dari tenaga profesional bidang kesehatan mental.
+            Ingat, hanya tenaga kesehatan profesional yang bisa mendiagnosis
+            depresi, jadi jangan ragu untuk meminta nasihat dari dokter Anda
+            jika khawatir tentang kondisi anak.
+          </p>
+
+          <br />
+
+          <a href="#">Kembali Ke Atas</a>
+        </div>
+      </div>
+    </div>
+    <!-- Post body ends from here -->
+
+    <!-- Footer section starts from here -->
+    <footer>
+      <div class="footer-col">
+        <h3>Lainya</h3>
+        <li>Tentang Kami</li>
+        <li>Frequently Asked Questions (FAQ)</li>
+        <li>Syarat Dan Ketentuan</li>
+        <li>Kontak</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Gabung sekarang untuk mendapatkan informasi terbaru</p>
+
+        <div class="subscribe">
+          <input type="email" placeholder="Alamat Email Anda" />
+          <a href="#" class="yellow">Kirim</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @ 2023 All rights reserved |
+          <a
+            href="https://www.unicef.org/indonesia/id/what-we-do"
+            target="_blank"
+            >UNICEF</a
+          >
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends from here -->
+
+    <script>
+      // Show menu links on burger click
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      // Hide navbar on click function
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>

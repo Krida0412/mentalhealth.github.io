@@ -1,0 +1,38 @@
+#blog-container .blogpost
+{
+	width: 60%;
+	margin: auto !important;
+}
+
+#blog-container .blogpost p
+{
+	text-align: justify;
+}
+
+
+
+/*------------------------------------------------------*/
+/*------------------ For Tablet screen -----------------*/
+/*------------------------------------------------------*/
+@media screen and (max-width: 789px)
+{
+	#blog-container .blogpost
+	{
+		padding-top: 30px;
+		width: 100%;
+	}
+}
+
+
+
+/*------------------------------------------------------*/
+/*------------------ For Mobile screen -----------------*/
+/*------------------------------------------------------*/
+@media screen and (max-width: 475px)
+{
+	#blog-container .blogpost
+	{
+		padding-top: 70px;
+		width: 100%;
+	}
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single post</title>
+
+    <!-- font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="post.css" />
+
+    <!-- JQuery CDN link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <nav>
+      <div class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+
+        <img src="img/menu.png" id="menu-btn" alt="" />
+      </div>
+    </nav>
+    <!-- Navigation ends -->
+
+    <!-- Post body starts from here -->
+    <div id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+          <img src="img/2.webp" alt="" />
+          <h3>Apa itu stres?</h3>
+          <p>
+            Stres adalah perasaan yang umumnya dapat kita rasakan saat berada di
+            bawah tekanan, merasa kewalahan, atau kesulitan menghadapi suatu
+            situasi. Stres dalam batas tertentu bisa berdampak positif dan
+            memotivasi kita untuk mencapai suatu tujuan, seperti mengerjakan tes
+            atau berpidato. Namun, stres yang berlebihan, apalagi jika terasa
+            sulit dikendalikan, dapat berdampak negatif terhadap suasana hati,
+            kesehatan fisik dan mental, dan hubungan kita dengan orang lain.
+          </p>
+
+          <p>
+            Stres pada anak dan remaja. Stres pada anak dapat terpicu ketika
+            anak mengalami hal baru atau tidak terduga. Untuk anak-anak kecil,
+            penyebab stres secara umum adalah situasi tegang di rumah, seperti
+            adanya kekerasan di dalam rumah tangga, perpisahan orang tua, atau
+            kematian orang terdekat. Situasi sekolah juga menjadi
+            penyebab—misalnya, harus berkenalan dengan teman baru atau melalui
+            suatu ujian bisa membuat anak merasa kewalahan. Seiring bertambahnya
+            usia, sumber-sumber stres dapat bertambah, mengingat semakin banyak
+            pengalaman seseorang, lingkar pergaulannya meluas, tugas-tugas
+            sekolah lebih banyak, dan akses ke media pun lebih besar lagi.
+            Banyak remaja dibuat stres oleh isu-isu sosial, seperti perubahan
+            iklim dan diskriminasi. Kita harus ingat, anak-anak ibarat “spons”
+            dan akan menyerap hal-hal yang ada di sekitar mereka. Mereka tahu
+            jika orang tuanya mengalami stres dan dapat bereaksi terhadap suatu
+            kondisi emosional, apa pun bentuknya.
+          </p>
+
+          <p>
+            Tanda dan gejala stres Ketika mengalami stres, tubuh mengeluarkan
+            hormon seperti adrenalin dan kortisol yang menyiapkan kita untuk
+            mengambil tindakan mendesak. Hal ini dikenal juga dengan respons
+            ‘melawan atau lari’. Efeknya terhadap pikiran dan tubuh anak, antara
+            lain: Gejala fisik Napas tersengal-sengal, berkeringat, dan jantung
+            berdegup kencang Sakit kepala, pandangan berputar, dan sulit tidur
+            Mual, gangguan pencernaan Berat badan naik atau turun karena makan
+            terlalu banyak atau sedikit Rasa sakit dan nyeri, dan lebih sering
+            sakit Gejala emosional dan mental Mudah kesal dan marah,
+            meledak-ledak atau menarik diri dari keluarga dan teman Mengabaikan
+            tanggung jawabnya, berkurang efisiensi kerjanya atau sulit
+            berkonsentrasi Tekanan emosional, seperti terus-menerus merasa sedih
+            atau mudah menangis. Gejala-gejala ini seringkali dapat menghasilkan
+            stres yang lebih besar lagi. Penting bagi orang tua untuk membantu
+            anaknya mengetahui cara-cara menghadapi situasi stres agar anak
+            dapat mengatasi stres segera setelah timbul.
+          </p>
+
+          <br />
+
+          <a href="#">Kembali Ke Atas</a>
+        </div>
+      </div>
+    </div>
+    <!-- Post body ends from here -->
+
+    <!-- Footer section starts from here -->
+    <footer>
+      <div class="footer-col">
+        <h3>Lainya</h3>
+        <li>Tentang Kami</li>
+        <li>Frequently Asked Questions (FAQ)</li>
+        <li>Syarat Dan Ketentuan</li>
+        <li>Kontak</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Gabung sekarang untuk mendapatkan informasi terbaru</p>
+
+        <div class="subscribe">
+          <input type="email" placeholder="Alamat Email Anda" />
+          <a href="#" class="yellow">Kirim</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @ 2023 All rights reserved |
+          <a
+            href="https://www.unicef.org/indonesia/id/what-we-do"
+            target="_blank"
+            >UNICEF</a
+          >
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends from here -->
+
+    <script>
+      // Show menu links on burger click
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      // Hide navbar on click function
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
